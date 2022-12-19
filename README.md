@@ -28,6 +28,8 @@ There is a table with the following lines and columns:
 
 In order to run elevator **choose amount of passengers**, then **select target floors** and run **"Simulate step"** to simulate one step of elevators moving.
 
+![screen](screen.jpg)
+
 If the elevator moves it colorized by *blue*, when it reaches one of several target floors it change color to *yellow*, reaching the last floor the color changes to *green* and with the next step the elevator becomes inactive. The current elevator floor is saved.
 
 Each elevator define the nearest target floor to order all target floors. The prioritization of targets performs after the first step simulation and repeats after reaching each of the target floors.
