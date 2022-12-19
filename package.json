@@ -1,0 +1,30 @@
+{
+  "name": "elevator-control-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vartaller/elevator-control-system.git"
+  },
+  "author": "Volodymyr Soloviov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vartaller/elevator-control-system/issues"
+  },
+  "homepage": "https://github.com/vartaller/elevator-control-system#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "electron-pug": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.2",
+    "jsdom": "^20.0.3",
+    "require": "^2.4.20"
+  }
+}

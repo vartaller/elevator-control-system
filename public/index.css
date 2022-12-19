@@ -1,0 +1,82 @@
+h1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 0.1) 100%);
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: rgba(0, 213, 255, 0.053);
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: rgba(0, 212, 255, 0.1);
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+table td {
+    padding: 0.5rem;
+    background-color: rgba(16, 143, 255, 0.3);
+    border: 5px solid white;
+}
+
+table th {
+    padding: 0.5rem;
+    background-color: rgba(17, 45, 255, 0.3);
+    border: 5px solid white;
+}
+
+.floor-target1, .floor-target2, .floor-target3, .passengers-number {
+    width: 3em;
+}
+
+.floor-current {
+    width: 3em;
+}
+
+.btn-main {
+    display: flex;
+    justify-content: center;
+    margin: 3em auto;
+    background-color: rgba(9, 9, 121, 1);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-main:hover {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+    background-color: rgb(114, 114, 166);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-main:active {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+    background-color: rgb(51, 51, 142);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
